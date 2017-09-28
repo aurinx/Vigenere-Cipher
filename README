@@ -1,5 +1,5 @@
 This is an implementation of the Vigenere Cipher in Golang. Functionalities include encrypt, decrypt, estimate key length, and guess what the original key is.
-
+Make sure Golang environment is properly set up before testing. 
 Vigenere-Encryption
 	1) Navigate to “vigenere-encrypt” folder
 	2) Type “go install”
