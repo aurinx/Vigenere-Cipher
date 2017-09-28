@@ -1,0 +1,25 @@
+This is an implementation of the Vigenere Cipher in Golang. Functionalities include encrypt, decrypt, estimate key length, and guess what the original key is.
+
+Vigenere-Encryption
+	1) Navigate to “vigenere-encrypt” folder
+	2) Type “go install”
+	3) Type “vigenere-encrypt <encipherment key> <plaintext filename>”
+	4) Output gets sent to stdout
+	
+Vigenere-Decryption
+	1) Navigate to “vigenere-decrypt” folder
+	2) Type command “go install”
+	3) Type “vigenere-decrypt <decipherment key> <ciphertext filename>”
+	4) Output gets sent to stdout
+	
+Vigenere-Keylength
+	1) Navigate to “vigenere-keylength” folder
+	2) Type command “go install”
+	3) Type “vigenere-keylength <ciphertext filename>”
+	4) Guessed keylength gets sent to stdout
+
+Vigenere-Cryptanalyze
+	1) Navigate to “vigenere-cryptanalyze folder
+	2) Type command “go install”
+	3) Type “vigenere-cryptanalyze <ciphertext filename> <key length>
+	4) Proposed key gets sent to stdout
